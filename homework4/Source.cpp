@@ -9,7 +9,7 @@ int main()
 	const int arrsize = 10;
 	int* arr = new int[arrsize];
 	srand((unsigned int)time(NULL));
-	cout << "Array arr :" ;
+	cout << "Array arr: " ;
 	for (int i = 0; i < arrsize; i++)
 	{
 		arr[i] = (rand() % 10);
